@@ -1,22 +1,22 @@
 {
-    "Acknowledgements": "TODO: whom you want to acknowledge",
-    "Authors": [
-        "Egor Levchenko",
-        "Hugo Chow-Wing-Bom",
-        "Fred Dick",
-        "Adam Tierney",
-        "Jeremy I Skipper"
-    ],
-    "BIDSVersion": "1.8.0",
-    "DatasetDOI": "TODO: eventually a DOI for the dataset",
-    "Funding": [
-        "LIDo BBSRC funding"
-    ],
-    "HowToAcknowledge": "TODO: describe how to acknowledge -- either cite a corresponding paper, or just in acknowledgement section",
-    "License": "CC0",
-    "Name": "Naturalistic Neuroimaging Database 3T+",
-    "ReferencesAndLinks": [
-        "TODO",
-        "List of papers or websites"
-    ]
+  "Acknowledgements": "TODO: whom you want to acknowledge",
+  "Authors": [
+    "Egor Levchenko",
+    "Hugo Chow-Wing-Bom",
+    "Fred Dick",
+    "Adam Tierney",
+    "Jeremy I Skipper"
+  ],
+  "BIDSVersion": "1.8.0",
+  "DatasetDOI": "TODO: eventually a DOI for the dataset",
+  "Funding": [
+    "LIDo BBSRC funding"
+  ],
+  "HowToAcknowledge": "TODO: describe how to acknowledge -- either cite a corresponding paper, or just in acknowledgement section",
+  "License": "TODO: choose a license, e.g. PDDL (http://opendatacommons.org/licenses/pddl/)",
+  "Name": "Naturalistic Neuroimaging Database 3T+",
+  "ReferencesAndLinks": [
+    "TODO",
+    "List of papers or websites"
+  ]
 }
