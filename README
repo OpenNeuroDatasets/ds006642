@@ -8,9 +8,9 @@ The participant completed several different tasks inside the scanner during Sess
 
 ## Data Organization
 The dataset follows the BIDS specification:
-- `sub-<participant_id>` directories contain session-level raw and derivative data.
+- `sub-<participant_id>` directories contain session-level raw data.
 - `sourcedata/` includes non-BIDS raw files of eye-tracker and pulse oximetry data.
-- `derivatives/` include preprocessing outputs (fMRI, eye-tracking, motion metrics, etc.).
+- `derivatives/` include preprocessing outputs.
 
 ## Contents
 - **fMRI data**: Preprocessed and raw fMRI from movie-watching and mapping tasks.
@@ -21,6 +21,7 @@ The dataset follows the BIDS specification:
 - **Derivatives**: Preprocessed files including Freesurfer and AFNI outputs.
 
 All preprocessing scripts, quality control reports, and analysis code are available on GitHub:
+
 [https://github.com/levchenkoegor/movieproject2](https://github.com/levchenkoegor/movieproject2)
 
 ## Access
