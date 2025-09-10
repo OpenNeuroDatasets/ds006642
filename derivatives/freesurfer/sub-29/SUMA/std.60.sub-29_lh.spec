@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/fM/22/SHA256E-s2262--4f5b475c6ceb4273393d5faadfcc2c0c0da20cd5e004aa674271563180c14711.spec/SHA256E-s2262--4f5b475c6ceb4273393d5faadfcc2c0c0da20cd5e004aa674271563180c14711.spec
