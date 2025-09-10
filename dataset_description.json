@@ -17,5 +17,8 @@
     "Name": "Naturalistic Neuroimaging Database 3T+",
     "ReferencesAndLinks": [
         "A neuroimaging database combining movie-watching, eye-tracking, sensorimotor mapping, and cognitive tasks (NNDb3T+)"
+    ],
+    "EthicsApprovals": [
+        "The study was approved by the ethics committee at the University College London (Reference number: fMRI/2023/003)"
     ]
 }
