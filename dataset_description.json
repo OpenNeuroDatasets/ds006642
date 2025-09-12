@@ -8,7 +8,7 @@
         "Jeremy I Skipper"
     ],
     "BIDSVersion": "1.8.0",
-    "DatasetDOI": "TODO: eventually a DOI for the dataset",
+    "DatasetDOI": "doi:10.18112/openneuro.ds006642.v1.0.0",
     "Funding": [
         "LIDo BBSRC funding"
     ],
