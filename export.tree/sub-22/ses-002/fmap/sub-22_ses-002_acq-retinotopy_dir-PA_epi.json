@@ -1,0 +1,358 @@
+{
+    "AcquisitionMatrixPE": 106,
+    "AcquisitionNumber": 1,
+    "AcquisitionTime": "11:51:0.512500",
+    "BandwidthPerPixelPhaseEncode": 16.846,
+    "BaseResolution": 106,
+    "BodyPartExamined": "BRAIN",
+    "CoilCombinationMethod": "Sum of Squares",
+    "ConsistencyInfo": "N4_VE11C_LATEST_20160120",
+    "ConversionSoftware": "dcm2niix",
+    "ConversionSoftwareVersion": "v1.0.20220720",
+    "DerivedVendorReportedEchoSpacing": 0.000560012,
+    "DeviceSerialNumber": "166108",
+    "DwellTime": 1.8e-06,
+    "EchoTime": 0.0352,
+    "EchoTrainLength": 106,
+    "EffectiveEchoSpacing": 0.000560012,
+    "FlipAngle": 60,
+    "HeudiconvVersion": "1.3.0",
+    "ImageComments": "Unaliased MB4/PE3/LB",
+    "ImageOrientationPatientDICOM": [
+        1,
+        0,
+        0,
+        0,
+        0.917755,
+        -0.397148
+    ],
+    "ImageOrientationText": "Tra>Cor(-23.4)",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M",
+        "MB",
+        "ND",
+        "MOSAIC"
+    ],
+    "ImagingFrequency": 123.244,
+    "InPlanePhaseEncodingDirectionDICOM": "COL",
+    "InstitutionAddress": "Bedford Way 26,London,London,GB,WC1H 0AP",
+    "InstitutionName": "University College",
+    "InstitutionalDepartmentName": "Department",
+    "MRAcquisitionType": "2D",
+    "MagneticFieldStrength": 3,
+    "Manufacturer": "Siemens",
+    "ManufacturersModelName": "Prisma",
+    "MatrixCoilMode": "SENSE",
+    "Modality": "MR",
+    "MultibandAccelerationFactor": 4,
+    "NonlinearGradientCorrection": false,
+    "PartialFourier": 1,
+    "PatientPosition": "HFS",
+    "PercentPhaseFOV": 100,
+    "PercentSampling": 100,
+    "PhaseEncodingDirection": "j",
+    "PhaseEncodingSteps": 106,
+    "PhaseResolution": 1,
+    "PixelBandwidth": 2620,
+    "ProcedureStepDescription": "Egor^MovieProject2",
+    "ProtocolName": "func-bold_task-pRF_PE-Rev",
+    "PulseSequenceDetails": "%CustomerSeq%\\cmrr_mbep2d_bold",
+    "ReceiveCoilActiveElements": "HEA;HEP",
+    "ReceiveCoilName": "Head_32",
+    "ReconMatrixPE": 106,
+    "RepetitionTime": 1,
+    "SAR": 0.0595633,
+    "ScanOptions": "FS\\EXT",
+    "ScanningSequence": "EP",
+    "SequenceName": "epfid2d1_106",
+    "SequenceVariant": "SK\\SS",
+    "SeriesDescription": "func-bold_task-pRF_PE-Rev",
+    "SeriesNumber": 16,
+    "ShimSetting": [
+        -1515,
+        676,
+        7353,
+        -18,
+        -90,
+        248,
+        154,
+        -58
+    ],
+    "SliceThickness": 2,
+    "SliceTiming": [
+        0,
+        0.4075,
+        0.8175,
+        0.245,
+        0.6525,
+        0.0825,
+        0.49,
+        0.8975,
+        0.3275,
+        0.735,
+        0.1625,
+        0.5725,
+        0,
+        0.4075,
+        0.8175,
+        0.245,
+        0.6525,
+        0.0825,
+        0.49,
+        0.8975,
+        0.3275,
+        0.735,
+        0.1625,
+        0.5725,
+        0,
+        0.4075,
+        0.8175,
+        0.245,
+        0.6525,
+        0.0825,
+        0.49,
+        0.8975,
+        0.3275,
+        0.735,
+        0.1625,
+        0.5725,
+        0,
+        0.4075,
+        0.8175,
+        0.245,
+        0.6525,
+        0.0825,
+        0.49,
+        0.8975,
+        0.3275,
+        0.735,
+        0.1625,
+        0.5725
+    ],
+    "SoftwareVersions": "syngo MR E11",
+    "SpacingBetweenSlices": 2,
+    "StationName": "AWP166108",
+    "TotalReadoutTime": 0.0588013,
+    "TxRefAmp": 243.532,
+    "WipMemBlock": "6b2dedf9-af44-492e-aac5-cce0bf6f2c22||Sequence: R016 ve11c/master r/e634e98; Dec 19 2017 11:00:25 by eja",
+    "dcmmeta_affine": [
+        [
+            -2.0,
+            0.0,
+            0.0,
+            106.0
+        ],
+        [
+            0.0,
+            1.8355093002319336,
+            -0.7942957282066345,
+            -77.39739990234375
+        ],
+        [
+            0.0,
+            0.7942957282066345,
+            1.8355093002319336,
+            -51.12700271606445
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "dcmmeta_reorient_transform": [
+        [
+            0.0,
+            -1.0,
+            0.0,
+            105.0
+        ],
+        [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "dcmmeta_shape": [
+        106,
+        106,
+        48,
+        4
+    ],
+    "dcmmeta_slice_dim": 2,
+    "dcmmeta_version": 0.6,
+    "global": {
+        "const": {
+            "AcquisitionMatrix": [
+                106,
+                0,
+                0,
+                106
+            ],
+            "AngioFlag": "N",
+            "BitsAllocated": 16,
+            "BitsStored": 16,
+            "BodyPartExamined": "BRAIN",
+            "CardiacNumberOfImages": 1,
+            "Columns": 742,
+            "EchoNumbers": 1,
+            "EchoTime": 35.2,
+            "EchoTrainLength": 106,
+            "FlipAngle": 60.0,
+            "HighBit": 15,
+            "ImageOrientationPatient": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.9177546397099,
+                -0.3971478582228
+            ],
+            "ImagePositionPatient": [
+                -742.0,
+                -699.02302637446,
+                284.86008714408
+            ],
+            "ImageType": [
+                "ORIGINAL",
+                "PRIMARY",
+                "M",
+                "MB",
+                "ND",
+                "MOSAIC"
+            ],
+            "ImagedNucleus": "1H",
+            "ImagingFrequency": 123.243656,
+            "InPlanePhaseEncodingDirection": "COL",
+            "MRAcquisitionType": "2D",
+            "MagneticFieldStrength": 3.0,
+            "Manufacturer": "SIEMENS",
+            "ManufacturerModelName": "Prisma",
+            "Modality": "MR",
+            "NominalInterval": 0,
+            "NumberOfAverages": 1.0,
+            "NumberOfPhaseEncodingSteps": 106,
+            "PercentPhaseFieldOfView": 100.0,
+            "PercentSampling": 100.0,
+            "PerformedProcedureStepStartTime": "103952.020000",
+            "PhotometricInterpretation": "MONOCHROME2",
+            "PixelBandwidth": 2620.0,
+            "PixelRepresentation": 0,
+            "PixelSpacing": [
+                2.0,
+                2.0
+            ],
+            "ProtocolName": "func-bold_task-pRF_PE-Rev",
+            "RepetitionTime": 1000.0,
+            "Rows": 742,
+            "SAR": 0.05956327018323,
+            "SamplesPerPixel": 1,
+            "ScanOptions": [
+                "FS",
+                "EXT"
+            ],
+            "ScanningSequence": "EP",
+            "SequenceName": "epfid2d1_106",
+            "SequenceVariant": [
+                "SK",
+                "SS"
+            ],
+            "SeriesDescription": "func-bold_task-pRF_PE-Rev",
+            "SeriesNumber": 16,
+            "SeriesTime": "115117.431000",
+            "SliceLocation": -16.183831128382,
+            "SliceThickness": 2.0,
+            "SmallestImagePixelValue": 0,
+            "SoftwareVersions": "syngo MR E11",
+            "SpacingBetweenSlices": 2.0000000247918,
+            "SpecificCharacterSet": "ISO_IR 100",
+            "StudyID": "1",
+            "StudyTime": "103951.965000",
+            "TransmitCoilName": "Body",
+            "VariableFlipAngleFlag": "N",
+            "WindowCenterWidthExplanation": "Algo1",
+            "dBdt": 0.0
+        },
+        "slices": {}
+    },
+    "time": {
+        "samples": {
+            "AcquisitionNumber": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "AcquisitionTime": [
+                "115100.512500",
+                "115101.512500",
+                "115102.512500",
+                "115103.512500"
+            ],
+            "ContentTime": [
+                "115117.433000",
+                "115117.439000",
+                "115117.442000",
+                "115117.444000"
+            ],
+            "InstanceCreationTime": [
+                "115117.433000",
+                "115117.439000",
+                "115117.442000",
+                "115117.444000"
+            ],
+            "InstanceNumber": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "LargestImagePixelValue": [
+                11266,
+                11122,
+                10968,
+                10936
+            ],
+            "TriggerTime": [
+                8107.5,
+                9107.5,
+                10107.5,
+                11107.5
+            ],
+            "WindowCenter": [
+                4368.0,
+                4352.0,
+                4341.0,
+                4340.0
+            ],
+            "WindowWidth": [
+                9779.0,
+                9745.0,
+                9727.0,
+                9722.0
+            ]
+        },
+        "slices": {}
+    },
+    "IntendedFor": [
+        "ses-002/func/sub-22_ses-002_task-retinotopy_run-001_bold.nii.gz",
+        "ses-002/func/sub-22_ses-002_task-retinotopy_run-003_bold.nii.gz",
+        "ses-002/func/sub-22_ses-002_task-retinotopy_run-002_bold.nii.gz"
+    ]
+}

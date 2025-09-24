@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/MP/W2/SHA256E-s2262--ee4300d8f32d9ee0feba1163e034fb665fd7bdfc4943d626806cacebe508f92a.spec/SHA256E-s2262--ee4300d8f32d9ee0feba1163e034fb665fd7bdfc4943d626806cacebe508f92a.spec
