@@ -10,7 +10,7 @@
     "BIDSVersion": "1.8.0",
     "DatasetDOI": "doi:10.18112/openneuro.ds006642.v1.0.0",
     "Funding": [
-        "LIDo BBSRC funding"
+        "LIDo BBSRC funding (BB/T008709/1)"
     ],
     "HowToAcknowledge": "Please cite the following preprint:\nhttps://doi.org/10.1101/2025.09.25.678556",
     "License": "CC0",
