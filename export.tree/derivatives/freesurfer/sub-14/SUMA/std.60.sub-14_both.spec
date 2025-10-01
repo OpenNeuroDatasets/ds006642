@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/57/pm/SHA256E-s4049--fabdc7682a93eea535da6ac243e11ebd571f9bb0cf00dbdfcbdd680c68205276.spec/SHA256E-s4049--fabdc7682a93eea535da6ac243e11ebd571f9bb0cf00dbdfcbdd680c68205276.spec

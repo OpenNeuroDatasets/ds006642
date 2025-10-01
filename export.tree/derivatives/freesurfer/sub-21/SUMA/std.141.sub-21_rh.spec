@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/Pj/k6/SHA256E-s2284--961ca6fb3e9b548f43f2cac9a59e66a84238cf1b1756ad5cc7fba25c3aed5a1d.spec/SHA256E-s2284--961ca6fb3e9b548f43f2cac9a59e66a84238cf1b1756ad5cc7fba25c3aed5a1d.spec
