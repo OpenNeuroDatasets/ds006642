@@ -20,6 +20,13 @@ The dataset follows the BIDS specification:
 - **Behavioral and cognitive assessments**: Demographic and psychometric data.
 - **Derivatives**: Preprocessed files including Freesurfer and AFNI outputs.
 
+## Important Note: Movie Playback Timing
+Users intending to align stimulus annotations with fMRI data should be aware of a systematic playback onset delay affecting Run 3 of the movie-watching session.
+
+After the 8 dummy volumes are acquired and playback is triggered, there is a brief variable delay before the movie begins. Run 3 has a systematic onset delay of approximately 700ms (±80ms) across all participants, meaning the movie started ~700ms later than the annotation timestamps indicate.
+
+Practical correction for Run 3: shift all annotation onsets by +700ms (or +18 frames at 25fps) relative to the fMRI time series. Runs 1 and 2 require no correction.
+
 All preprocessing scripts and analysis code are available on GitHub:
 [https://github.com/levchenkoegor/movieproject2](https://github.com/levchenkoegor/movieproject2)
 
