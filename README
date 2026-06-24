@@ -1,34 +1,38 @@
-# NNDb-3T+: A neuroimaging database combining movie-watching, eye-tracking, sensorimotor mapping, and cognitive tasks
+# NNDb-3T+: A Neuroimaging Database Combining Movie-Watching, Eye-Tracking, Sensorimotor Mapping, and Cognitive Tasks
+
 
 ## Overview
-The dataset is designed to support research into brain function during both naturalistic and controlled experimental conditions. Data were acquired at 3T with multiple imaging modalities, complemented by physiological and behavioral measures.
-Before their visit, participants (N=40) filled out a questionnaire about demographic information, language background, musical experience, and knowledge of movies. Then the participant completed a set of cognitive tests and two scanning sessions were scheduled.
-During Session 1, the participant watched the entirety of 'Back To The Future' (backtothefuture), divided into three parts. Eye-tracker calibration was performed before each part. The entire process for Session 1 took about three hours.
-The participant completed several different tasks inside the scanner during Session 2: somatotopic mapping, where the participant performed movements inside the scanner; retinotopic mapping, where different checkerboard patterns were presented while the participant was instructed to fixate on the dot in the middle of the screen and respond every time the dot changed colour; tonotopic mapping, during which a sequence of beeps was played and the participant was instructed to press a button when they noticed a difference in tone. All tasks together took approximately 2.5 hours.
+NNDb-3T+ is a multimodal neuroimaging dataset designed to support research on brain function during both naturalistic and controlled experimental conditions. Data were acquired at 3T using multiple neuroimaging modalities and are complemented by physiological, behavioural, and cognitive measures.
 
-## Data Organization
-The dataset follows the BIDS specification:
-- `sub-<participant_id>` directories contain session-level raw data.
-- `sourcedata/` includes raw files of eye-tracker (in asc and edf) and pulse oximetry (in tsv) data.
-- `derivatives/` include preprocessing outputs.
+Before participation, 40 participants completed questionnaires covering demographic information, language background, musical experience, and familiarity with movies. Participants also completed a battery of cognitive assessments before attending two MRI sessions.
+
+During Session 1, participants watched the entirety of *Back to the Future* (`backtothefuture`), divided into three runs. Eye-tracker calibration was performed before each run. The complete Session 1 procedure lasted approximately three hours.
+
+During Session 2, participants completed several functional mapping tasks inside the MRI scanner. Somatotopic mapping involved performing a series of body movements. Retinotopic mapping involved viewing visual stimulation patterns while maintaining fixation on a central dot and responding whenever the fixation dot changed colour. During tonotopic mapping, participants listened to sequences of tones and responded to infrequent target sounds. All Session 2 tasks together lasted approximately 2.5 hours.
+
+## Data Organisation
+The dataset follows the Brain Imaging Data Structure (BIDS) specification.
+
+* `sub-<participant_id>/` contains participant-level raw imaging data.
+* `sourcedata/` contains raw eye-tracking files (`.asc` and `.edf`), pulse oximetry recordings, cognitive assessment data, and questionnaire responses.
+* `derivatives/` contains preprocessed fMRI data, FreeSurfer outputs, and behavioural performance measures from the tonotopy and retinotopy tasks.
+* `stimuli/` contains presentation scripts and stimulus materials for all tasks. Due to copyright restrictions, the full movie cannot be distributed with the dataset. Researchers requiring access should contact Jeremy Skipper ([jeremy.skipper@ucl.ac.uk](mailto:jeremy.skipper@ucl.ac.uk)).
 
 ## Contents
-- **fMRI data**: Preprocessed and raw fMRI from movie-watching and mapping tasks.
-- **Eye-tracking**: Calibrated gaze and pupil data synchronized with fMRI during movie-wathing and retinotopy tasks.
-- **Mapping tasks**: Retinotopy, tonotopy, and somatotopy tasks.
-- **Physiological recordings**: Pulse oximetry.
-- **Behavioral and cognitive assessments**: Demographic and psychometric data.
-- **Derivatives**: Preprocessed files including Freesurfer and AFNI outputs.
+* **fMRI data:** Raw and preprocessed fMRI data from movie-watching and functional mapping tasks.
+* **Eye-tracking data:** Gaze position and pupil measurements acquired during movie-watching and retinotopy tasks.
+* **Functional mapping tasks:** Retinotopy, tonotopy, and somatotopy datasets.
+* **Physiological recordings:** Pulse oximetry measurements.
+* **Behavioural and cognitive assessments:** Demographic, questionnaire, and cognitive test data.
+* **Derivatives:** Processed outputs including FreeSurfer and AFNI derivatives.
 
 ## Important Note: Movie Playback Timing
-Users intending to align stimulus annotations with fMRI data should be aware of a systematic playback onset delay affecting Run 3 of the movie-watching session.
+Researchers intending to align stimulus annotations with fMRI data should be aware of a systematic playback onset delay affecting Run 3 of the movie-watching session. Additional details are provided in `stimuli/backtothefuture/timing_correction_note.pdf`.
 
-After the 8 dummy volumes are acquired and playback is triggered, there is a brief variable delay before the movie begins. Run 3 has a systematic onset delay of approximately 700ms (±80ms) across all participants, meaning the movie started ~700ms later than the annotation timestamps indicate.
-
-Practical correction for Run 3: shift all annotation onsets by +700ms (or +18 frames at 25fps) relative to the fMRI time series. Runs 1 and 2 require no correction.
-
+## Code Availability
 All preprocessing scripts and analysis code are available on GitHub:
-[https://github.com/levchenkoegor/movieproject2](https://github.com/levchenkoegor/movieproject2)
+
+https://github.com/levchenkoegor/movieproject2
 
 ## Access
-The dataset is released under the CC-BY 4.0 License
+The dataset is released under the CC BY 4.0 License.
