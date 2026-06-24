@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/fg/jk/SHA256E-s2284--d5659e946773f5523aadd1ddc3435193ee9fef91e50cc06935eaa652d478c768.spec/SHA256E-s2284--d5659e946773f5523aadd1ddc3435193ee9fef91e50cc06935eaa652d478c768.spec

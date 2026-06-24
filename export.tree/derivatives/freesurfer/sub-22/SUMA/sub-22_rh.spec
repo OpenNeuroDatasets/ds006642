@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/VP/WG/SHA256E-s2707--7bb10d3c92631a27c3f812f280589335f29dd77a66d85dfdefa0514ec9df72bc.spec/SHA256E-s2707--7bb10d3c92631a27c3f812f280589335f29dd77a66d85dfdefa0514ec9df72bc.spec

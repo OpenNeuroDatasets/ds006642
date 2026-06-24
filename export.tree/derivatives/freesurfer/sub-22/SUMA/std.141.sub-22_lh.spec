@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/Xg/kq/SHA256E-s2284--26da7ac4d917731a80be772cd88c5954e8a5bafb4bd86de16913d541e8326eb2.spec/SHA256E-s2284--26da7ac4d917731a80be772cd88c5954e8a5bafb4bd86de16913d541e8326eb2.spec
